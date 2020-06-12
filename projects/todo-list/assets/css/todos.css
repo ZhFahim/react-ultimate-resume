@@ -1,4 +1,5 @@
 body {
+	width: 100%;
 	font-family: 'Roboto', sans-serif;
 	background: #2BC0E4;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
