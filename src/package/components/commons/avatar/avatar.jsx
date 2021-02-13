@@ -11,7 +11,7 @@ import { styles } from './avatar_styles';
 const useStyles = createUseStyles(styles);
 
 const DEFAULT_IMAGE = 'https://i.pravatar.cc/250';
-const AvatarComponent = ({ src, displayedName }) => {
+const AvatarComponent = ({ src }) => {
     const classes = useStyles();
     const [receivedGlobalClasses] = useReceivedGlobalClasses('banner.avatar');
     const [nodes] = useAdditionalNodes('banner.avatar', null);
@@ -24,7 +24,7 @@ const AvatarComponent = ({ src, displayedName }) => {
                 <img
                     className={cn(classes.image, receivedGlobalClasses.image)}
                     src={pictureSource}
-                    alt={displayedName}
+                    alt="Zahidul Hoque Fahim"
                 />
             </div>
             {nodes}

@@ -34,11 +34,10 @@ const CARD_TYPE_MAPPING = {
     interestedBy: InterestedByCard
 };
 
-const CardsComponent = ({ cardsOrder = DEFAULT_CARD_ORDER, side, maxCardsPerRow }) => {
-    const classes = useStyles({ maxCardsPerRow });
+const CardsComponent = ({ cardsOrder = DEFAULT_CARD_ORDER, side }) => {
+    const classes = useStyles();
     const theme = useTheme();
     const [{ before: beforeNode, after: afterNode }] = useAdditionalNodes('cards');
-
     const cards = useMemo(
         () =>
             cardsOrder
@@ -57,11 +56,9 @@ const CardsComponent = ({ cardsOrder = DEFAULT_CARD_ORDER, side, maxCardsPerRow 
     );
     return (
         <div className={classes.container}>
-            <div className={classes.cards}>
-                {beforeNode}
-                {cards}
-                {afterNode}
-            </div>
+            {beforeNode}
+            {cards}
+            {afterNode}
         </div>
     );
 };

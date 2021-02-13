@@ -51,7 +51,7 @@ export const UserInformations = () => {
                         container: classes.name
                     }}
                     variant="h3"
-                    component="h3"
+                    component="h1"
                 >
                     {data.basics?.name}
                 </Typography>

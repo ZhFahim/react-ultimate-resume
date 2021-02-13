@@ -50,7 +50,7 @@ function App() {
 
     return (
         <DeveloperProfile
-            mode={mode}
+            mode={'readOnly'}
             data={data}
             onEdit={onEdit}
             onCustomizationChanged={onCustomizationChanged}
@@ -67,11 +67,10 @@ function App() {
                 // dismissFooter : true
                 // showContactInfos: true,
                 customization
-                // maxCardsPerRow: 3
             }}
             additionalNodes={{
                 banner: {
-                    actionsButtons: mode === 'edit' && (
+                    actionsButtons: mode === 'readOnly' && (
                         <Button variant="outlined" onClick={handleClick} color={'light'}>
                             <SaveIcon className={classes.saveIcon} />
                             <FormattedMessage id="Profile.header.jsonResume.download" defaultMessage="Export" />

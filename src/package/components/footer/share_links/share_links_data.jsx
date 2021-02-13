@@ -13,34 +13,34 @@ export const SHARE_LINKS_DATA = Object.freeze({
         icon: TwitterIcon,
         tooltipTranslation: (
             <FormattedMessage
-                id="Footer.shareLinks.shareOnTooltip"
-                defaultMessage="Share on {platform}"
+                id="Footer.shareLinks"
+                defaultMessage="Follow me on {platform}"
                 values={{ platform: 'Twitter' }}
             />
         ),
-        getLink: ({ translatedMessage }) => `https://twitter.com/intent/tweet?text=${translatedMessage}`
+        getLink: () => 'https://twitter.com/ZhFahimOfficial'
     },
     facebook: {
         icon: FacebookIcon,
         tooltipTranslation: (
             <FormattedMessage
-                id="Footer.shareLinks.shareOnTooltip"
-                defaultMessage="Share on {platform}"
+                id="Footer.shareLinks"
+                defaultMessage="Follow me on {platform}"
                 values={{ platform: 'Facebook' }}
             />
         ),
-        getLink: ({ link }) => `https://www.facebook.com/sharer/sharer.php?u=${encodeURI(link)}`
+        getLink: () => 'https://www.facebook.com/ZhFahim.Me'
     },
     linkedIn: {
         icon: LinkedInIcon,
         tooltipTranslation: (
             <FormattedMessage
-                id="Footer.shareLinks.shareOnTooltip"
-                defaultMessage="Share on {platform}"
+                id="Footer.shareLinks"
+                defaultMessage="Follow me on {platform}"
                 values={{ platform: 'LinkedIn' }}
             />
         ),
-        getLink: ({ link }) => `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURI(link)}`
+        getLink: () => 'https://www.linkedin.com/in/zahidul-hoque-fahim-b9a935170'
     },
     copyShareUrl: {
         icon: (props) => (

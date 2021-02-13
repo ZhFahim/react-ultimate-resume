@@ -1,9 +1,3 @@
----
-id: integrate
-title: Integrate to your website
-sidebar_label: Integrate
----
-
 # WeLoveDevs - Developer Profile
 
 This package allow you to create a pretty and easy to use - _developer specific_ - profile without the usual strain that comes with it.

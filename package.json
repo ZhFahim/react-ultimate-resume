@@ -1,6 +1,6 @@
 {
     "name": "@welovedevs/react-ultimate-resume",
-    "version": "1.0.4",
+    "version": "1.0.4-beta.5",
     "description": "Developer profile for W3D",
     "main": "lib/index.js",
     "scripts": {
@@ -125,5 +125,6 @@
         "*.+(ts|tsx)": [
             "prettier --loglevel=debug --write"
         ]
-    }
+    },
+    "homepage" : "http://zhfahim.com"
 }

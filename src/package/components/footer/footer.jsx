@@ -9,7 +9,7 @@ import { useMediaQuery } from '@material-ui/core';
 
 import { ShareLinks } from './share_links/share_links';
 
-import { ReactComponent as Logo } from '../../assets/icons/brands/welovedevs.svg';
+// import { ReactComponent as Logo } from '../../assets/icons/brands/welovedevs.svg';
 import { ReactComponent as GithubLogo } from '../../assets/icons/brands/github.svg';
 
 import { styles } from './footer_styles';
@@ -31,23 +31,22 @@ const FooterComponent = () => {
                 <div className={classes.wldLogoGithubLogoContainer}>
                     <a
                         className={classes.logoLink}
-                        href="https://welovedevs.com"
-                        target="_blank"
+                        href={(typeof window === 'undefined' ? {} : window).location?.href}
                         rel="noreferrer noopener"
                     >
-                        <Logo className={classes.logo} />
+                        <img src="/logo.png" width="100px"/>
                     </a>
                     <Tooltip
                         title={
                             <FormattedMessage
-                                id="Footer.github.tooltip"
-                                defaultMessage="Create your own developer profile!"
+                                id="Footer.tooltip"
+                                defaultMessage="Visit my github account!"
                             />
                         }
                     >
                         <a
                             className={classes.githubLink}
-                            href="https://github.com/welovedevs/developer-profile"
+                            href="https://github.com/ZhFahim"
                             target="_bank"
                             rel="noreferer noopener"
                         >
@@ -62,18 +61,18 @@ const FooterComponent = () => {
 
     return (
         <div className={classes.container}>
-            <a className={classes.logoLink} href="https://welovedevs.com" target="_blank" rel="noreferrer noopener">
-                <Logo className={classes.logo} />
+            <a className={classes.logoLink} href={(typeof window === 'undefined' ? {} : window).location?.href} rel="noreferrer noopener">
+                <img src="/logo.png" width="100px" alt="zhfahim.com logo" />
             </a>
             <ShareLinks />
             <Tooltip
                 title={
-                    <FormattedMessage id="Footer.github.tooltip" defaultMessage="Create your own developer profile!" />
+                    <FormattedMessage id="Footer.tooltip" defaultMessage="Visit my github account!" />
                 }
             >
                 <a
                     className={classes.githubLink}
-                    href="https://github.com/welovedevs/developer-profile"
+                    href="https://github.com/ZhFahim"
                     target="_bank"
                     rel="noreferer noopener"
                 >
