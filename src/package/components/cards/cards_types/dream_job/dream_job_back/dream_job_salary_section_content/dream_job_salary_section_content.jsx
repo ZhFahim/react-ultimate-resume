@@ -13,7 +13,7 @@ const DreamJobSalarySectionContentComponent = ({ contractTypes, salary, averageD
                 <ProfileCardSectionTitle>
                     <FormattedMessage id="Dreamjob.Back.AverageDailyRate.Title" defaultMessage="Average Daily Rate" />
                 </ProfileCardSectionTitle>
-                <ProfileCardSectionText>{`${averageDailyRate} €`}</ProfileCardSectionText>
+                <ProfileCardSectionText>{`${averageDailyRate} $`}</ProfileCardSectionText>
             </>
         );
     }
@@ -22,7 +22,7 @@ const DreamJobSalarySectionContentComponent = ({ contractTypes, salary, averageD
             <ProfileCardSectionTitle>
                 <FormattedMessage id="Dreamjob.Back.Salary.Title" defaultMessage="Ideal yearly salary" />
             </ProfileCardSectionTitle>
-            <ProfileCardSectionText>{`${salary} k€`}</ProfileCardSectionText>
+            <ProfileCardSectionText>{`${salary} k$`}</ProfileCardSectionText>
         </>
     );
 };

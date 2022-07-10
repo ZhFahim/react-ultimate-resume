@@ -1,309 +1,308 @@
 {
     "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john.doe@mail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
+        "name": "Zahidul Hoque Fahim",
+        "picture": "/fahim.png",
+        "title": "Web & Mobile App Developer",
+        "summary": "Mobile & Web App Developer",
         "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
+            "countryCode": "Bangladesh",
+            "city": "Dhaka"
         },
         "profiles": [
             {
-                "network": "twitter",
-                "username": "@john"
-            },
-            {
-                "network": "Portfolio",
-                "url": "https://myawesome.portfolio.rocket.fr"
-            },
-            {
-                "network": "codingame",
-                "username": "ed3ee82f9630e99db32dec093b2ca07a0368002"
-            }, {
-                "network": "github",
-                "username": "clementdevos"
-            },
-            {
                 "network": "linkedin",
-                "url": "https://www.linkedin.com/in/%F0%9F%A5%B3-cl%C3%A9ment-devos-4b832526/"
+                "url": "https://www.linkedin.com/in/zahidul-hoque-fahim-b9a935170",
+                "id": "2b632fb9-e701-4c56-b23f-fa8a8807b602"
+            },
+            {
+                "network": "twitter",
+                "username": "ZhFahimOfficial",
+                "id": "a717e666-d350-4015-b930-c91e827e3e40"
+            },
+            {
+                "network": "github",
+                "username": "ZhFahim",
+                "id": "63045f1f-2e7b-4230-af29-31baaed34959"
             }
         ]
     },
     "work": [
         {
-            "name": "Samsung Engineering",
-            "position": "3D Cad Engineer",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        },
-        {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        },
-        {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        }
-    ],
-    "volunteer": [
-        {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "website": "http://organization.com/",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
+            "index": 0,
+            "id": "8b069f3c-3722-4da6-89b9-ac0e1a02c366",
+            "name": "Nifty IT Solution Ltd.",
+            "position": "Software Engineer",
+            "place": {
+                "name": "Dhaka, Bangladesh"
+            },
+            "startDate": "2021-12-01",
+            "summary": "Currently i'm working here as a full time Flutter & Node.js Developer. Since this is not a big enterprise i'm also working as a DevOps engineer to deploy products to AWS.",
+            "location": "Dhaka, Bangladesh",
+            "stillEmployed": true
         }
     ],
     "education": [
         {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        },
-        {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        }
-    ],
-    "awards": [
-        {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
+            "id": "-M8fFfXPCxwtJvaJ-ia2",
+            "institution": "Feni Computer Institute",
+            "index": 0,
+            "studyType": "Diploma in Engineering",
+            "endDate": "2021-01-01",
+            "area": "Telecommunication Technology"
         }
     ],
     "skills": [
         {
-            "name": "React",
-            "level": "Master",
-            "value": 100,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "id": "dde05bb3-3476-4efe-8597-87912783730c",
+            "name": "Flutter",
+            "position": 2,
+            "value": 90,
+            "index": 0
         },
         {
-            "name": "Angular",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
+            "id": "9ce67c6e-5ff3-473f-a731-927395bdf0fb",
             "name": "NodeJS",
-            "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Firebase",
-            "level": "Master",
-            "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Gmail",
-            "level": "Master",
-            "value": 20,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "K8S",
-            "level": "Master",
+            "position": 1,
             "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "index": 1
+        },
+        {
+            "id": "1af796f1-db24-4fc5-90d1-982a61cca0a1",
+            "name": "Express",
+            "position": 3,
+            "value": 90,
+            "index": 2
+        },
+        {
+            "id": "52746eb5-9c1e-47ec-ad98-9fafe248d2f1",
+            "name": "MongoDB",
+            "position": 4,
+            "value": 90,
+            "index": 3
+        },
+        {
+            "name": "Amazon Web Services",
+            "index": 4,
+            "value": 70,
+            "id": "9a05e98d-105a-485e-9fba-ca8c07ab6ab5"
         }
     ],
     "languages": [
-        { "language": "English", "value": 100, "fluency": "Native speaker" },
-        { "language": "Italien", "value": 15, "fluency": "Native speaker" }
+        {
+            "name": "Bengali",
+            "position": 0,
+            "value": 100,
+            "language": "Bengali",
+            "id": "-M8fHRm-hhjCSiItT2Jb",
+            "index": 0
+        },
+        {
+            "name": "English",
+            "position": 1,
+            "value": 90,
+            "language": "English",
+            "id": "-M8fHVPYJImShZIOXwcz",
+            "index": 1
+        },
+        {
+            "name": "Japanese",
+            "position": 2,
+            "value": 40,
+            "language": "Japanese",
+            "id": "-M8fHXdpQEn7ilDaT3h9",
+            "index": 2
+        }
     ],
     "interests": [
         {
-            "name": "France europe gif by nike football",
-            "gifUrl": "https://media1.giphy.com/media/3oD3YooLLYg0AfOPdK/giphy-downsized.gif?cid=f7fb5bbaegu1ofs48lty41dyowqsfo0wq9qq8h4czot7rwm1&rid=giphy-downsized.gif",
-            "id": "afa5739f-f868-464e-a1aa-18f5a3ff4e2b",
-            "gifUser": {
-                "name": "Nike Football",
-                "profileUrl": "https://giphy.com/nikefootball/",
-                "isVerified": true,
-                "profileAvatarUrl": "https://media1.giphy.com/avatars/nikefootball/vPyZcrShcXY8.jpg"
-            }
-        },
-        {
-            "name": "Burritos",
-            "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
-        },
-
-        {
-            "name": "Tendresse",
-            "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif"
-        },
-        {
-            "name": "Something",
-            "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif"
-        },
-        {
-            "name": "J'aime faire de la course à pied et des randonnées en famille le weekend."
-        }
-    ],
-    "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
-    "projects": [
-        {
-            "index": 5,
-            "date": { "month": 11, "year": 2019 },
-            "description": "Moteur de recherche via le nom de films réalisée avec ReactJs:\nRequête à l'Api rest avec Fetch, utilisation des hooks.\n",
-            "id": "7f1f4257-e5db-477d-aa5f-ababe0ab0b12",
-            "images": [{ "url": "https://cdn.filestackcontent.com/aBOkTTkCQ66VOHUy0q8L" }],
-            "link": "https://lovely-movie.netlify.app/",
-            "name": "Lovely Movie",
-            "endDate": "2019-12-01"
-        },
-        {
-            "index": 2,
-            "date": { "month": 0, "year": 2020 },
-            "description": "Application de gestion de tâches réalisée avec ReactJs / Redux / Firebase :\nCréation de composants avec Styled Components, gestions de formulaires et validation des entrées, création d'une authentification, récupération / création / modification / suppression de tâches.",
-            "id": "af4181b1-8955-47fb-8dd9-17c6974335d3",
-            "images": [{ "url": "https://cdn.filestackcontent.com/G2CckiqvScC9tsrvHYg4" }],
-            "link": "https://diary-todo.netlify.app/",
-            "name": "Journal d'une Todo",
-            "endDate": "2020-01-01"
-        },
-        {
-            "index": 4,
-            "date": { "month": 5, "year": 2020 },
-            "description": "Blog réalisé en Java JEE et Spring, avec création d'une base de données MySQL et connectée avec JDBC.",
-            "id": "af8c78c3-f7c6-4f3b-9c32-9d37a9032e14",
-            "images": [{ "url": "https://cdn.filestackcontent.com/rPp0wj4S2GhTr0qTcqOI" }],
-            "link": "https://btz-java-2003-pjt1-blog.javarover.wilders.dev/",
-            "name": "Charlie's Angels blog",
-            "endDate": "2020-06-01"
-        },
-        {
-            "index": 3,
-            "date": { "month": 5, "year": 2020 },
-            "description": "** Pensée uniquement pour téléphone **\nApplication permettant de connaître la météo actuelle d'une ville. Réalisée afin de découvrir VueJs.",
-            "id": "c64e6ca1-6300-4d7f-a305-8cfb7c99a9e6",
-            "images": [{ "url": "https://cdn.filestackcontent.com/w5oskUihSiYCxekOn9Ba" }],
-            "link": "https://appli-meteo.netlify.app/",
-            "name": "Application Météo",
-            "endDate": "2020-06-01"
+            "gifUrl": "https://media.giphy.com/media/4oMoIbIQrvCjm/giphy.gif",
+            "id": "75a14c6e-e5d8-4aea-b338-21576dcb6262",
+            "index": 0,
+            "name": "Listening to Music"
         },
         {
             "index": 1,
-            "date": { "month": 7, "year": 2020 },
-            "description": "Premières armes avec Angular et Typescript :\nMise en place d'un environnement Angular, développement d'une authentification avec Firebase, gestion des formulaires, utilisation d'observable avec RxJs.\n",
-            "id": "d9f7ca32-a40a-418e-affb-317bfb4f520e",
-            "images": [{ "url": "https://cdn.filestackcontent.com/NVOhKNFQR9OQ3jtkIyHi" }],
-            "link": "https://my-connected-library.netlify.app/",
-            "name": "Librairie Connectée",
-            "endDate": "2020-08-01"
+            "id": "30de35c7-72d7-4119-9cf1-e6ac299d3fad",
+            "gifUrl": "https://media.giphy.com/media/UcK7JalnjCz0k/giphy.gif",
+            "name": "Coding"
         },
         {
-            "index": 6,
-            "date": { "month": 4, "year": 2019 },
-            "description": "Moteur de recherche basé sur le jeu World of Warcraft, premiers pas avec ReatJs.\nRequête à l'API Raider.io avec Axios.",
-            "id": "dbe2a8d9-dd9d-443d-8ae4-7a8e0b7939f5",
-            "images": [{ "url": "https://cdn.filestackcontent.com/FSysoX0ATvqy2BFvLF21" }],
-            "link": "https://wow-search-engine.netlify.app/",
-            "name": "WoW Search",
-            "endDate": "2019-05-01"
+            "index": 2,
+            "id": "e9b31daa-3622-43d1-bf4b-467e3d34ab87",
+            "gifUrl": "https://media.giphy.com/media/NFA61GS9qKZ68/giphy.gif",
+            "name": "Reading"
         },
         {
+            "index": 3,
+            "id": "05ec85a0-0342-4bc0-93ff-955cb0d98c5f",
+            "gifUrl": "https://media.giphy.com/media/lXC2gmHf2ypUs/giphy.gif",
+            "name": "Travelling"
+        },
+        {
+            "index": 4,
+            "id": "6255fb70-fc64-497f-bfac-5cba7e73365c",
+            "gifUrl": "https://media.giphy.com/media/fhAwk4DnqNgw8/giphy.gif",
+            "name": "Learning new things"
+        }
+    ],
+    "projects": [
+        {
+            "date": "2020-07-01T18:00:00.000Z",
+            "description": "Miha is a brand new music player that comes with a beautiful, eye-soothing User Interface. It is built based on a design theory called Neumorphic design, which for the app looks more realistic. \nFeatures:\n- Track, Artist, Album and Genre-based music library 🎶\n- Favorites, Most played and Recently played list ⏱️\n- Custom playlist ⚙️\n- Built-in equalizer 🎛️\n- On play animation 🔥\n- Search songs 🔍\n- Song info editor 🎯\n- Song sharing option 🤝\n- Sleep timer ⌛\n- Control music from the notification bar 📱\n- 30 different skins 🎨\n- Dark mode 🥰\n- More coming soon...",
+            "name": "Miha Music Player",
+            "endDate": "2020-08-07",
+            "id": "-M8fGVoOppZ-KO_3gx4v",
             "index": 0,
-            "date": { "month": 6, "year": 2020 },
-            "description": "Application réalisée en 24h (challenge de formation) avec Java JEE et Spring:\nGestion d’un CRUD, création d'une API Rest, ajout d'un environnement de production avec une base de données PostgreSQL hébergée sur Heroku.",
-            "id": "ffb8a4f2-24e6-44ef-bbe7-0593b86d40be",
-            "images": [{ "url": "https://cdn.filestackcontent.com/7XpHKtFTC2VynppurrK5" }],
-            "link": "https://your-todos-list.herokuapp.com/",
-            "name": "Your Todo List",
-            "endDate": "2020-07-01"
+            "link": "https://play.google.com/store/apps/details?id=com.zhfahim.miha"
+        },
+        {
+            "date": "2020-02-29T18:00:00.000Z",
+            "description": "Yelp-like Campground Review Web Application. It's a REST-ful Full Stack App. I made it using Node.js, Express.js and MongoDB.",
+            "name": "YelpCamp",
+            "endDate": "2019-04-01",
+            "id": "-M8fGVoOppZ-KO_3gx4v",
+            "index": 1,
+            "link": "https://yelpcamp-zhfahim.herokuapp.com"
+        },
+        {
+            "date": "2020-02-29T18:00:00.000Z",
+            "description": "CaptionIngo is a photo caption directory. It can generate random caption for photo.\n Built with:\n Node.js, Express.js and MongoDB.",
+            "name": "CaptionIngo",
+            "endDate": "2020-03-01",
+            "id": "-M8fGVoOppZ-KO_3gx4v",
+            "index": 2,
+            "link": "https://captioningo.herokuapp.com"
+        },
+        {
+            "date": "2020-02-29T18:00:00.000Z",
+            "description": "A simple RGB color guessing game.\n Built with:\n HTML, CSS and Javascript.",
+            "name": "Color Guessing Game",
+            "endDate": "2019-05-01",
+            "id": "-M8fGVoOppZ-KO_3gx4v",
+            "index": 3,
+            "link": "https://zhfahim.com/projects/color-game"
+        },
+        {
+            "date": "2020-02-29T18:00:00.000Z",
+            "description": "A simple Patatap clone app. It can plays multiple sound in browser when user presses keys (Only works in desktop browser).\n Built with:\n HTML, CSS, Javascript and Paper.js.",
+            "name": "Patatap Clone",
+            "endDate": "2019-05-01",
+            "id": "-M8fGVoOppZ-KO_3gx4v",
+            "index": 5,
+            "link": "https://zhfahim.com/projects/patatap-clone"
+        },
+        {
+            "date": "2020-05-29T18:00:00.000Z",
+            "description": "Beautiful todo list app for both IOS and Android.\n Built with:\n Flutter",
+            "name": "Todoey",
+            "endDate": "2020-05-01",
+            "id": "-M8fGVoOppZ-KO_3gx4v",
+            "index": 6,
+            "link": "https://github.com/ZhFahim/todoey"
+        },
+        {
+            "date": "2020-06-29T18:00:00.000Z",
+            "description": "Cross platform Calculator app based on Neumorphic design theory.\n Built with:\n Flutter",
+            "name": "Neumorphic Calculator",
+            "endDate": "2020-06-01",
+            "id": "-M8fGVoOppZ-KO_3gx4v",
+            "index": 7,
+            "link": "https://github.com/ZhFahim/neuphormic-calculator"
         }
     ],
     "specific": {
         "basics": {
             "visaSponsorship": true,
-            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
+            "personalDescription": "I'm Fahim. A passionate mobile application developer. Also web developer.\n\nI build immersive and beautiful web and mobile applications through carefully crafted code and user-centric design.\n\n I am naturally curious, a problem solver, and a continuous learner.\n\nCurrently I'm living in Bangladesh. So, I would love to work in Bangladesh. But I can manage to work anywhere as per job's requirement. In that case..."
         },
         "dreamJob": {
-            "locations": [{ "name": "Valenciennes, France" }, { "name": "Lille, France" }, { "name": "Paris,France" }],
-            "remoteFrequency": "regularly"
+            "locations": [
+                {
+                    "id": "ChIJOcfP0Iq2j4ARDrXUa7ZWs34",
+                    "index": 0,
+                    "placeId": "ChIJOcfP0Iq2j4ARDrXUa7ZWs34",
+                    "name": "Silicon Valley, US"
+                }
+            ],
+            "salary": "100",
+            "perks": {
+                "challenge": true,
+                "responsabilities": true,
+                "others": "Team, communication"
+            },
+            "remoteFrequency": "regularly",
+            "averageDailyRate": "180"
         },
         "currentJob": {
-            "issues": { "z": true, "boring_team": true }
+            "issues": {}
         },
-        "education": { "studiesLevel": null },
+        "education": {
+            "studiesLevel": 4
+        },
         "work": {
-            "contractTypes": ["permanent", "freelance", "internship"],
-            "codingYears": 0,
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
-            "searchState": "activelySearching",
-            "experienceYears": 0,
-            "codeExperienceYears": null,
-            "otherExperienceYears": null
+            "contractTypes": [
+                "permanent",
+                "freelance",
+                "fixedTerm"
+            ],
+            "codingYears": 6,
+            "searchState": "openOpportunities",
+            "experienceYears": 2,
+            "codingReason": "I love to build new things.\n\n My dream is traveling the world learning different cultures, while also coding and building applications that help people solve their problems.\n\n",
+            "codeExperienceYears": 2,
+            "otherExperienceYears": 0
         },
         "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
+            "embedUrl": "https://open.spotify.com/embed/playlist/1H8xrrNEkcxRtkcDqRhWXN?si=h_aetWVJQcK-Mo1KvC3Jgg"
         },
-        "interestedBy": "Angular, la blochain et les chatons."
+        "interestedBy": "Blockchain and Machine Learning"
     },
     "resumeCustomization": {
         "imageHeader": {
-            "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
+            "url": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&w=1631&q=80",
             "alt": "Default Banner"
         },
-        "cardsOrder": [
-            { "type": "basics", "variant": 4 },
-            { "type": "projects", "variant": 4 },
-            { "type": "skills", "variant": 0 },
-            { "type": "dreamjob", "variant": 4 },
-            { "type": "experiences", "variant": 4 },
-            { "type": "studies", "variant": 4 },
-            { "type": "gifs", "variant": 0 },
-            { "type": "interestedBy", "variant": 3 },
-            { "type": "language", "variant": 4 },
-            { "type": "soundtrack", "variant": 4 },
-            { "type": "social", "variant": 4 }
-        ],
-        "fields": {
-            "work": {
-                "customDateFormat": "YYYY"
+        "theme": {
+            "palette": {
+                "primary": {
+                    "50": "#e8e9ea",
+                    "100": "#d2d3d6",
+                    "200": "#a4a6ac",
+                    "300": "#777a83",
+                    "400": "#494d59",
+                    "500": "#1c2130",
+                    "600": "#161a26",
+                    "700": "#11141d",
+                    "800": "#0b0d13",
+                    "900": "#06070a",
+                    "contrastDefaultColor": "light"
+                },
+                "secondary": {
+                    "50": "#e6f4f1",
+                    "100": "#cce9e4",
+                    "200": "#9ad2c8",
+                    "300": "#67bcad",
+                    "400": "#35a591",
+                    "500": "#028f76",
+                    "600": "#02725e",
+                    "700": "#015647",
+                    "800": "#01392f",
+                    "900": "#001d18",
+                    "contrastDefaultColor": "light"
+                },
+                "tertiary": {
+                    "50": "#f7fcf5",
+                    "100": "#f0f9eb",
+                    "200": "#e1f3d6",
+                    "300": "#d1ecc2",
+                    "400": "#c2e6ad",
+                    "500": "#b3e099",
+                    "600": "#8fb37a",
+                    "700": "#6b865c",
+                    "800": "#485a3d",
+                    "900": "#242d1f",
+                    "contrastDefaultColor": "light"
+                }
             }
         }
     }
