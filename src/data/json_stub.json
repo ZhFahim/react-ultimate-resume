@@ -136,7 +136,7 @@
             "index": 3,
             "id": "05ec85a0-0342-4bc0-93ff-955cb0d98c5f",
             "gifUrl": "https://media.giphy.com/media/lXC2gmHf2ypUs/giphy.gif",
-            "name": "Travelling"
+            "name": "Traveling"
         },
         {
             "index": 4,
@@ -255,7 +255,7 @@
         "sound": {
             "embedUrl": "https://open.spotify.com/embed/playlist/1H8xrrNEkcxRtkcDqRhWXN?si=h_aetWVJQcK-Mo1KvC3Jgg"
         },
-        "interestedBy": "Blockchain and Machine Learning"
+        "interestedBy": "AI and Machine Learning"
     },
     "resumeCustomization": {
         "imageHeader": {
